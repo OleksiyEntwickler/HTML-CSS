@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projekt Oleksii's Ivko</title>
+        <link rel="stylesheet" href="CSS/style-kontakt.css">
+        <link rel="stylesheet" href="CSS/query.css">
+        <script src="js/app.js" defer></script>
+        <link rel="shortcut icon" href="Images/folder.jpg" type="image/x-icon">
+    </head>
+    <body>
+
+        <header>
+            <nav class="top-nav">
+                <label for="check" class="switch-label"><span class="c1">M</span><span class="c2">E</span><span class="c3">N</span><span class="c4">U</span></label>
+                <input type="checkbox" id="check">
+                <div class = "nav-wrapper">
+                    <div><a href="index.html">HOME</a></div>
+                    <div><a href="veranstaltungen.html">Veranstaltungen</a></div>
+                    <div><a href="#Archiv">Archiv</a></div>
+                    <div><a href="#About">About</a></div>
+                    <div class="dropdown-menu"><a href="kontakt.html" class="dropdown-btn">Kontakt</a>
+                        <div class="dropdown-list">
+                            <div class="submenu">
+                                <a class="link" href="#kontakt">Konkakt</a>
+                                <a class="link" href="#nachrichtenabonieren">Nachrichten abonieren</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div><a href="#Geschichte">Geschichte</a></div>
+                    <div><a href="anfahrt.html">Anfahrt</a></div>
+                </div>
+            </nav>
+            
+        </header>
+        <h1 id="kontakt">Kontakt</h1>
+        <div class="wrapper">
+            <div class="container">
+                <div class="modul">
+                    <div>
+                        <h2>Sie haben eine gezielte Frage oder möchten mehr über unsere Galerie erfahren? Sprechen Sie uns an!</h2>
+                    </div>
+                    <div>
+                        <p>Telefon <a href="+123-456-789">+123-456-789</a></p>
+                        <p>E-Mail <a href="mail@mail.mail">mail@mail.mail</a></p>
+                    </div>
+                </div>
+            
+                <div class="modul">
+                    <div>
+                        <p>Galerie GmbH</p>
+                        <p>Königsallee 808</p>
+                        <p>40212 Düsseldorf</p>
+                        <p>Deutschland</p>
+                    </div>
+                    <div>
+                        <p>Montag bis Freitag</p>
+                        <p>10 bis 18 Uhr</p>
+                    </div>
+                    <div>
+                        <p>Samstag</p>
+                        <p>11 bis 14 Uhr</p>
+                    </div>
+                    <div>
+                        <p>An gesetzlichen Feiertagen geschlossen.</p>
+                    </div>
+                </div>
+            </div> 
+            <hr>
+            <div class="container">
+                <div class="modul">
+                        <h2 id="nachrichtenabonieren">Ich möchte eure Nachrichten abonieren:</h2>
+                    
+                    <div class="div-inputs-radio">
+                        <label1 for="">Ja</label1>
+                        <input type="radio" name="newsletter" value="yes">
+                    </div>
+                    <div class="div-inputs-radio">
+                        <label1 for="">Nein</label1>
+                        <input type="radio" name="newsletter" value="no">
+                    </div>
+        
+                    <div class="form-holder">
+                        <form action="myform.php" name="myform" id="myform">
+                            <div class="div-inputs">
+                                <label1 for="">Nachname&nbsp;&nbsp;&nbsp;<span class="required">*</span></label1>
+                                <input 
+                                type="text" 
+                                placeholder="Mustermann"
+                                name="nachname"
+                                id="lastname"
+                                required
+                                >
+                            </div>
+                            
+                            <div class="div-inputs">
+                                <label1 for="">Vorname&nbsp;&nbsp;&nbsp;<span class="required">*</span></label1>
+                                <input 
+                                type="text" 
+                                placeholder="Max"
+                                name="nachname"
+                                id="lastname"
+                                required
+                                >
+                            </div>
+                            
+                            <div class="div-inputs">
+                                <label1 for="">PLZ&nbsp;&nbsp;&nbsp;<span class="required">*</span></label1>
+                                <input 
+                                type="number" 
+                                placeholder="12345"
+                                name="plz"
+                                id="plz"
+                                required
+                                >
+                            </div>
+                            
+                            <div class="div-inputs">
+                                <label1 for="">Stadt&nbsp;&nbsp;&nbsp;<span class="required">*</span></label1>
+                                <input 
+                                type="text" 
+                                placeholder="Musterstadt"
+                                name="city"
+                                id="city"
+                                required
+                                >
+                            </div>
+                            
+                            <div class="div-inputs">
+                                <label1 for="">Email&nbsp;&nbsp;&nbsp;<span class="required">*</span></label1>
+                                <input 
+                                type="text" 
+                                placeholder="mustermann@musater.com"
+                                name="email"
+                                id="email"
+                                required
+                                >
+                            </div>
+                            <p xtra="" style="font-size: 1rem;">* - notwendig</p>
+                            <div>
+                                <input type="submit" value="Abschicken" class="btns">
+                            </div>
+                    </div>                    
+                </div>
+            
+                <div class="modul1">
+                    <label for="comment">Screiben Sie uns</label>
+                    <textarea name="comment" id="comment" class="text-area"></textarea>
+                    <input type="submit" value="Abschicken" class="btns">
+                    <input type="reset" value="RESET">
+                    
+                    </form>
+                </div>
+            </div>  
+        </div>
+        <hr>
+        <footer>
+            <nav class = "nav-bottom">
+                <div><a href="impressum.html">Impressum</a></div>
+                <div><a href="datenschutz.html">Datenschutz</a></div>
+                <div><a href="#Stiftung">Stiftung</a></div>
+            </nav>
+        </footer>
+    </body>
+</html>
