@@ -1,0 +1,99 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+body{
+    /* background-color: rgb(100, 36, 36); */
+    background-image: url(../Images/back2.jpg);
+    /* background-size: 100%; */
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrapper a{
+    padding: 0.5rem;
+    color: rgb(232, 252, 51);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-wrapper a:hover{
+    color: rgb(89, 231, 236);
+    border-bottom: solid 1px;
+}
+
+.modul{
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: aqua;
+}
+
+h2{
+    text-align: center;
+    color: aquamarine;
+    font-style: oblique;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+p{
+    font-size: 1.1rem;
+    max-width: 45rem ;
+    margin: auto;
+    text-align: center;
+}
+
+.dropdown-menu, .submenu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-list{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0 8px 8px color white;
+}
+
+.dropdown-menu:hover .dropdown-list, 
+  .submenu:hover{
+    display: block;
+  }
+
+.dropdown-list a{
+    color: rgb(232, 252, 51);
+    text-decoration: none;
+    display: block;
+}
+
+.d1{color: rgb(110, 173, 255);}
+.d2{color:rgb(241, 104, 219);}
+.d3{color: rgb(106, 231, 117);}
+.d4{color:rgb(214, 235, 95);}
+.d5{color: rgb(24, 204, 18);}
+.d6{color:rgb(109, 213, 245);}
+
+.nav-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bottom a{
+    padding: 0.5rem;
+    color: rgb(232, 252, 51);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-bottom a:hover{
+    color: rgb(89, 231, 236);
+    border-bottom: solid 1px;
+}
