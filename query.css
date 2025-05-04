@@ -1,0 +1,86 @@
+#check{
+    display: none;
+}
+
+.c1{color: red;}
+.c2{color:rgb(0, 255, 26);}
+.c3{color: rgb(237, 240, 89);}
+.c4{color:rgb(62, 213, 255);}
+
+@media screen and (min-width: 70rem){
+    .switch-label{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        margin: auto;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 70rem){
+    .top-nav{
+        padding-left: 1rem;
+    }
+    .nav-wrapper{
+        display: none; 
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+    
+    .nav-wrapper a:hover{
+        color: rgb(89, 231, 236);
+        border-bottom: 0.5px;
+    }
+
+    .switch-label{
+        display: block;
+        height: 5rem;
+        user-select: none;
+        line-height: 5rem;
+        font-size: 2rem;
+        background-image: url(../Images/Architekture1.jpg);
+        background-repeat: no-repeat;
+        background-size: 2rem;
+        background-position: 85% 50%;
+    }
+
+    #check:checked+.nav-wrapper{
+        display: block;
+        position: absolute;
+        /* background-color: rgb(100, 36, 36); */
+        background-image: url(../Images/back2.jpg);
+        left: 0;
+        width: calc(100% - 2rem);
+        padding-left: 1rem;
+        line-height: 1.5rem;       
+    }
+
+    .dropdown-menu, .submenu {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-list{
+        display: none;
+        position: sticky;
+        min-width: 160px;
+        box-shadow: 0 8px 8px color white;
+    }
+    
+    .dropdown-menu:hover .dropdown-list, 
+      .submenu:hover{
+        display: block;
+      }
+    
+    .dropdown-list a{
+        color: rgb(232, 252, 51);
+        text-decoration: none;
+        display: block;
+        line-height: 0.7rem;
+    }
+}
